@@ -1,8 +1,7 @@
 html {
 
 	height: 100%;
-	margin : 0;
-	font-family: Arial , sans-serif; 
+font-family: Arial , sans-serif; 
 
 }
 
@@ -165,6 +164,29 @@ h3 {
     /* margin-left: 20px; */
  }
 
+ @media screen and (max-width: 980px) {
+ 	h1 {
+ 		margin-left: 0;
+ 	}
+
+
+ 	.wrapper {
+		width: 960px;
+	}
+	
+	.main {
+		width: 960px;
+	}
+
+	 footer {
+   margin-top: 20px;
+	position: relative;
+	bottom: 0px;
+	clear: both;
+	
+}
+ }
+
  @media screen and (max-width: 768px){
 	.wrapper {
 		width: 768px;
@@ -175,43 +197,58 @@ h3 {
 	}
 
 	h1 {
+		display: none;
 		width :100%;
 		color:black;
 	}
 	.nav {
 		width: 100%;
+
 	}
 	.other {
-		width: 100%
+		width: 95%
 	}
 
 	
 
 	.img1 , .img2 {
 		float: left;
-		width: 40%;
-		margin:0;
+		width: 42%;
+		text-align: center;
+
 
 	}
 
 	.img3 , .img4 {
 		float: left;
-		width: 40%;
+		width: 42%;
+		text-align: center;
 
 	}
 
+	.txt1 , .txt2 , .txt3 , .txt4 {
+		text-align: center;
+		margin-left: 24px;
+	}
+
 	.sidebox {
-		clear:both;
-		width: 100%
+		margin-left: 0px;
+		width: 95%
+
 		
 	}
  .linkedin , .stack , .github {
     max-width: 27%;
+    margin: 10px 60px;
  }
  footer {
-   position: absolute;
+   margin-top: 20px;
+	position: relative;
 	bottom: 0px;
- }
+	clear: both;
+	
+}
+
 
 
 
@@ -253,7 +290,7 @@ p {
 
 .other {
 	
-	width: 500px;
+	width: 580px;
     clear: both;
     height: fit-content;
     margin: 0 auto;
@@ -262,25 +299,25 @@ p {
 
 .img1 , .img2 , .img3 , .img4 {
 		float: none;
-		width: 400px;
+		width: 450px;
 		margin:0;
 
 	}
 
 	.vg, .Movies, .run, .vinyl {
     /* height: 260px; */
-    width: 480px;
+    width: 540px;
 }
 
 .txt1, .txt2, .txt3, .txt4 {
     position: absolute;
     margin: 195px 0px 0px 15px;
-    width: 440px;
+    width: 500px;
 }
 
 .sidebox {
     clear: both;
-	width: 500px;
+	width: 580px;
 	background: #fff;
 	margin-top: 50px;
 	margin-left: 0px;

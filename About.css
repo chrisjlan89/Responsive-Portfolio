@@ -166,6 +166,17 @@ h3 {
 }
 
 
+@media only screen and (max-width: 980px){
+	.main {
+		width:
+		980px;
+	}
+	.other {
+		height:90%;
+	}
+	}
+
+
  @media only screen and (max-width: 768px){
   
 h1 {
@@ -173,16 +184,44 @@ h1 {
 }
 
 .main{
+	
 	width: 768px;
 }
 
+.other {
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+	
+}
+
+.sidebox {
+	margin: 0 auto;
+	width: 95%;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+footer {
+	margin-top: 20px;
+	position: relative;
+	bottom: 0px;
+	clear: both;
 
 
   }
 
+  .github , .linkedin , .stack {
+    
+    margin: 10px 50px;
+}
+
 
 @media screen and (max-width: 640px) {
 h1 {
+	display: none;
 	position: absolute;
 	top: 0px; 
 	color: red; 
@@ -218,16 +257,17 @@ p {
 }
 
 .other {
-	
-	width: 500px;
+	text-align: center;
+	width: 600px;
     clear: both;
     height: fit-content;
+    margin: 0 auto;
 
 }
 
 .sidebox {
     clear: both;
-	width: 500px;
+	width: 600px;
 	background: #fff;
 	margin-top: 50px;
 	margin-left: 0px;
